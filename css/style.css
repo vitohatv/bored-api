@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background: blanchedalmond;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.bored-content {
+    position: relative;
+}
+.bored-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 56px;
+    margin-top: 150px;
+}
+.bored-subtitle {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 23px;
+}
+.bored-smile {
+    display: block;
+    margin: 0 auto;
+    width: 5px;
+}
+.answer {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: darkred;
+    display: none;
+}
+.new-activity {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 35px;
+    cursor: pointer;
+    background: #3ebdd3;
+    border: 1px solid;
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: 30px;
+    transition: 0.4s all ease-in;
+}
+.new-activity:hover {
+    color: #273493;
+    transition: 0.4s all ease-out;
+}
